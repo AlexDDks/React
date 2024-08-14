@@ -1,0 +1,26 @@
+INTRODUCTION:
+
+The main goal of react is to create components that are functions that returns JSX (HTML) and answers to events made by the users.
+
+React works in the following way:
+	
+	-Even in react, all our code is attached to an html file. The full application of react is made by little peaces of JS files, but it is not efficient to send it separately, so it is merge into a file called bundle.
+
+	- When the user access to the website, sends a request to the server, this response with the HTML file which mainly have some tags and scripts that needs to render all the app, so made another request to the browser and it is there when the bundle file with all the pieces of js are sent and executed.
+
+	- Usually we must tell to react where (into the HTML) the components are gonna be rendered
+
+--------------------
+INITIAL SETUP:
+
+1. We must have Node.js
+2. To create a new project, navigate to the path you want to, and type: npx create-react-app projectName
+3. To run the project: npm start and open localhost:3000
+4. We have a lot of folders and files in the app predifined for us that are not needed to run a basic react app.
+--------------------
+RUNNING REACT
+
+JSX is not avaliable for running in the browser, as TS. So we must converted into JS before being executed. That is made by the React App Dev Server which is conformed by Babel(the translator), Webpack(merge all the .js files into one). Both creates the bundle.js.
+
+The index.js is the first file that is executed
+
